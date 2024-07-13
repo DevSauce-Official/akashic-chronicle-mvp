@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#dream-section, 
+#past-life-section,
+#higher-self-section {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 50%;
+}
