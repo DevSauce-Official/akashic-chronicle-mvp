@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Akashic Chronicle MVP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Akashic Chronicle</h1>
+
+  <div id="dream-section">
+    <h2>Dream Portal</h2>
+    <label for="dream-input">Describe your dream:</label><br>
+    <textarea id="dream-input" rows="4" cols="50"></textarea><br>
+    <button onclick="analyzeDream()">Analyze Dream</button>
+    <div id="dream-analysis"></div>
+  </div>
+
+  <div id="past-life-section" style="display:none;">
+    <h2>Past Life Echoes</h2>
+    <div id="past-life-prompt"></div>
+    <button onclick="showHigherSelf()">Continue</button>
+  </div>
+
+  <div id="higher-self-section" style="display:none;">
+    <h2>Higher Self Integration</h2>
+    <p>Reflect on the following questions:</p>
+    <ul>
+      <li>What lessons can you learn from this past life experience?</li>
+      <li>How do these lessons relate to your present challenges or goals?</li>
+    </ul>
+    <p>Take your time to journal and reflect.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
